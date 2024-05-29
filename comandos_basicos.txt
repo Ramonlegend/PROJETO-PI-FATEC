@@ -1,4 +1,4 @@
-//sempre que abrir o VSCODE usar comando git pull
+//sempre que abrir o VSCODE usar comando git pull  (para sincronizar com a nuvem)
 
 //vamos utilizar o metodo de branch para desenvolver
 //ou seja, criaremos uma base (MAIN/MASTER) e sempre que formos codar criar uma branch
