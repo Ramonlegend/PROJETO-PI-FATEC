@@ -1,0 +1,14 @@
+//sempre que abrir o VSCODE usar comando git pull  (para sincronizar com a nuvem)
+
+//vamos utilizar o metodo de branch para desenvolver
+//ou seja, criaremos uma base (MAIN/MASTER) e sempre que formos codar criar uma branch
+//comando para criar branch: git checkout -b *nome da branch*
+//EXEMPLO: git checkout -b graficos
+
+//comandos para commitar:
+  git add .
+  git commit -m "frase exemplo"
+  git push origin *nome da branch*        sem os asteriscos
+  git status  //para ver se deu certo
+
+eu (Ramon, sou responsavel pelo repositorio e farei o Merge dentro do github)
