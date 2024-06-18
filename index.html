@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="game.css">
+  <link rel="stylesheet" href="/estilos/style.css">
+  <link rel="stylesheet" href="/estilos/game.css">
+  <link rel="shortcut icon" href="images/moskitao.png" type="image/x-icon">
 </head>
 
 <body>
@@ -30,7 +31,7 @@
         <img id="magal" class="img-fluid" src="/images/menina2.png" alt="personagem">
       </p>
     </div>
-    <div class="container-fluid box-shadow rounded color-background">
+    <div class="container box-shadow rounded color-background">
       <div class="row">
         <div class="col-md-12 text-center p-3">
           <p class="h6 fonte-pixel">Clique no personagem para começar!</p>
@@ -43,41 +44,41 @@
   <section id="home-background2" class="container-fluid">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 ml-2 custom-grid p-5 mt-4 mb-4">
-          POE O GRAFICO (API DENGUE)
+        <div id="magal3" class="col-md-12 p-2 mt-4 mb-4 box-shadow color-background">
+          <canvas id="meuGrafico"></canvas>
         </div>
         <div class="row">
-          <div class="col-md-6 ml-2 mr-4 custom-grid p-5 mt-4 mb-4">
-            finge que tem conteudo aqui
+          <div class="rounded col-md-6 ml-2 mr-4 custom-grid p-5 mt-4 mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, necessitatibus? Doloribus temporibus sapiente ducimus voluptates iste ullam sequi at pariatur molestias officia dolore cupiditate ipsa voluptas, ipsam id, illum assumenda?Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique eos optio voluptatibus, corrupti quod beatae aliquid voluptatem a molestias consectetur officia quidem commodi enim cupiditate dolor aperiam quas animi excepturi!Lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad consectetur perferendis sed quibusdam sit, quidem in quisquam? Quidem consequuntur incidunt adipisci, deserunt, modi itaque corporis, odit minima accusantium rerum natus.lore lroe Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus nulla ex eaque beatae veniam cumque eligendi sint, reiciendis, voluptatum laboriosam doloremque! Quaerat rerum iste sequi commodi ullam consequuntur adipisci?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatem, possimus et ullam repudiandae non cupiditate sunt esse officia sequi dicta maxime nesciunt adipisci obcaecati odio voluptate tenetur delectus officiis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, sit consectetur amet, earum obcaecati dolorum atque quae tempore in molestiae itaque ullam minus excepturi asperiores non recusandae voluptatum culpa qui!
+
           </div>
-          <div class="col-md mr-2 custom-grid p-5 mt-4 mb-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus consequuntur, id dolor modi quisquam reprehenderit incidunt velit eum voluptatibus ut ratione sint ullam sit ducimus hic dolore rerum ad consectetur.
+          <div class="rounded col-md mr-2 custom-grid p-5 mt-4 mb-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus consequuntur, id dolor modi quisquam reprehenderit incidunt velit eum voluptatibus ut ratione sint ullam sit ducimus hic dolore rerum ad consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolores illo ipsa dolorum, beatae et rem aliquam necessitatibus praesentium in, consequuntur odio ab eveniet amet fugiat voluptatem quae culpa error? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores perferendis delectus eligendi suscipit et? Voluptas illo, culpa, blanditiis animi eaque in delectus ipsa nam corporis possimus obcaecati id rerum eligendi!
+            lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Non inventore ratione aperiam accusamus error cupiditate cumque quisquam nam quas et labore corporis maxime, eos, ullam amet aut eligendi ut. Sed. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit assumenda debitis ex quo omnis mollitia itaque nesciunt quos optio ea, dolorum, excepturi error qui, sequi architecto inventore quas quae. Rem.
           </div>
         </div>
-        <!--<div class="col-md-3 custom-grid">
-          <img src="/images/moskitao.png" alt="mosquito da dengue">
-        </div>
-        <div class=" col-md-3 custom-grid">
-          <img src="/images/pngwing.com.png" alt="snorlax">
-        </div>-->
-      </div>
-    </div>
   </section>
+
   <!-- jogo do magal, adptado dengue-->
   <section id="home-background" class="container-fluid">
-    <div class="game-board">
-      <div class="col scoreboard">
-        <h1>Score: <span id="score">0</span></h1>
+    <div class="row">
+      <div class="col-md-12 p-2 mt-4 box-shadow color-background">
+        <div class="game-board mx-auto">
+          <div class="col scoreboard">
+            <p class="h6 fonte-pixel">Score: <span id="score">0</span></p>
+          </div>
+          <img src="images/clouds.png" class="img-fluid clouds">
+          <p class="h1 fonte-pixel gameover"> GAME OVER</p>
+          <img src="images/mario.gif" class="img-fluid mario">
+          <img src="images/moskitao.png" class="img-fluid pipe">
+        </div>
+        <div class="comands container-fluid">
+          <p class="h2 fonte-pixel">Pressione qualquer tecla para pular</p>
+          <p class="h6 fonte-pixel">Para reiniciar o jogo, Atualize a pagina com F5</p>
+        </div>
       </div>
-      <img src="images/clouds.png" class="img-fluid clouds">
-      <img src="images/pngimg.com - game_over_PNG57.png" class="img-fluid gameover">
-      <img src="images/mario.gif" class="img-fluid mario">
-      <img src="images/pipe.png" class="img-fluid pipe">
-    </div>
-    <div class="comands">
-      <p class="h6 fonte-pixel">Pressione qualquer tecla para pular</p>
-      </br>
-      <p class="h6 fonte-pixel">Para reiniciar o jogo, Atualize a pagina com F5</p>
     </div>
   </section>
 
@@ -90,12 +91,16 @@
     </div>
   </footer>
 
-  <script src="index.js"></script>
-  <script src="game.js"></script>
+  <script src="/scripts/game.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="/scripts/exibi.js"></script>
+
 </body>
 
 </html>
