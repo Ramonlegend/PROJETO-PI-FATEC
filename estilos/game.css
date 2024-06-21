@@ -34,7 +34,6 @@
   width: 150px;
   position: absolute;
   bottom: 0;
-  
 }
 .jump{
   animation: jump 600ms ease-out;
