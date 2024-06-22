@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario vs Dengue</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/estilos/style.css">
+  <link rel="stylesheet" href="/estilos/game.css">
+  <link rel="shortcut icon" href="images/moskitao.png" type="image/x-icon">
+</head>
+
+<body class="background">
+  <section class="color-background container-fluid">
+    <p class="h6 fonte-pixel text-center p-3">Jogo do Marinho contra a dengue.</p>
+    <div class="game-board mx-auto">
+      <div class="col scoreboard">
+        <p class="h6 fonte-pixel">Score: <span id="score">0</span></p>
+      </div>
+      <img src="images/clouds.png" class="img-fluid clouds">
+      <p class="h1 fonte-pixel gameover"> GAME OVER</p>
+      <img src="images/mario.gif" class="img-fluid mario">
+      <img src="images/moskitao.png" class="img-fluid pipe">
+    </div>
+    <div class="comands container-fluid">
+      <p class="h2 fonte-pixel">Pressione qualquer tecla para pular</p>
+      <p class="h6 fonte-pixel">Para reiniciar o jogo, Atualize a pagina com F5</p>
+    </div>
+  </section>
+
+  <script src="/scripts/game.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="/scripts/exibi.js"></script>
+</body>
+
+</html>
